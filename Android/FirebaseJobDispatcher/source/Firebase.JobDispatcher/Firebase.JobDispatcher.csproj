@@ -68,11 +68,14 @@
     </LibraryProjectZip>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Android.Support.Compat" Version="27.0.2" />
-    <PackageReference Include="Xamarin.Android.Support.Core.UI" Version="27.0.2" />
-    <PackageReference Include="Xamarin.Android.Support.Core.Utils" Version="27.0.2" />
-    <PackageReference Include="Xamarin.Android.Support.Fragment" Version="27.0.2" />
-    <PackageReference Include="Xamarin.Android.Support.Media.Compat" Version="27.0.2" />
+    <PackageReference Include="Xamarin.Android.Support.Compat" Version="27.0.2.1" />
+    <PackageReference Include="Xamarin.Android.Support.Core.UI" Version="27.0.2.1" />
+    <PackageReference Include="Xamarin.Android.Support.Core.Utils" Version="27.0.2.1" />
+    <PackageReference Include="Xamarin.Android.Support.Fragment" Version="27.0.2.1" />
+    <PackageReference Include="Xamarin.Android.Support.Media.Compat" Version="27.0.2.1" />
+    <PackageReference Include="Xamarin.Firebase.JobDispatcher">
+      <Version>0.8.5</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>
